@@ -1,0 +1,41 @@
+#color-result{
+ margin: auto;
+ width: 77px;
+ height: 77px;
+ border: 1px solid #ccc;
+ margin: 0 7px;
+ color: rgb(129, 129, 129);
+ background-color: rgb(127, 127, 127);
+}
+
+#color-result code{
+ display: block;
+ background-color: rgb(255, 255, 255);
+ width: 77px;
+}
+
+.controll{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ padding: 7px;
+}
+
+.spacing{
+ padding: 0.7vh 0;
+}
+
+.controlls{
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 700px;
+}
+
+.container{
+ padding: 3%;
+}
+
+body{
+ font-family: sans-serif;
+}
+
